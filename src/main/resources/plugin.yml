@@ -1,0 +1,5 @@
+name: AutoRewards
+version: '${project.version}'
+main: com.ashkiano.autorewards.AutoRewards
+api-version: '1.16'
+authors: [ AshKiano ]
