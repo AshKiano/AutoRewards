@@ -10,6 +10,8 @@ public final class AutoRewards extends JavaPlugin {
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(new PlayerLoginListener(this), this);
         startRewardCheckTask();
+
+        Metrics metrics = new Metrics(this, 21249);
     }
 
     private void startRewardCheckTask() {
