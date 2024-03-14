@@ -12,6 +12,7 @@ public final class AutoRewards extends JavaPlugin {
         startRewardCheckTask();
 
         Metrics metrics = new Metrics(this, 21249);
+        this.getLogger().info("Thank you for using the AutoRewards plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     private void startRewardCheckTask() {
